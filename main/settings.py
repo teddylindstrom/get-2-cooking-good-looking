@@ -28,6 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-teddylindst-get2cooking-ywkjjmiplap.ws-eu115.gitpod.io']
+# https://8000-teddylindst-get2cooking-ywkjjmiplap.ws-eu115.gitpod.io/
 
 
 # Application definition
@@ -40,6 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+# Apps
+'home',
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -56,7 +60,9 @@ ROOT_URLCONF = 'main.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'tenmplates')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
