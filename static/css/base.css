@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 
 :root{
-    /* Fonts */
+/* Fonts */
     --title: 'SUSE', 'serif';
     --main-font: 'SUSE', 'serif'
 
-    /* Colors */
+/* Colors */
     --background: #154360;
     --beige: #FDF2E9;
     --yellow: #F39C12;
@@ -13,14 +13,36 @@
     --dark-grey: #34495E;
     --black: #17202A;
 
-    /* Utils */
+/* Utils */
     --smal-box-shadow: 1px -1px 7px 0 #041623;
     --border: 1px solid #041620;
+}
 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title);
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: var(--off-white);
+}
+
+/* Footer */
+footer: {
+    flex-shrink: 0;
 }
 
 /* Header */
-
 .navbar {
     background-color: var(--off-white)
     box-shadow: var(--smal-box-shadow)
