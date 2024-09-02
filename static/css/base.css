@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 
-:root{
-/* Fonts */
+:root {
+    /* Fonts */
     --title: 'SUSE', 'serif';
-    --main-font: 'SUSE', 'serif'
+    --main-font: 'SUSE', 'serif';
 
-/* Colors */
+    /* Colors */
     --background: #154360;
     --beige: #FDF2E9;
     --yellow: #F39C12;
@@ -13,8 +13,8 @@
     --dark-grey: #34495E;
     --black: #17202A;
 
-/* Utils */
-    --smal-box-shadow: 1px -1px 7px 0 #041623;
+    /* Utils */
+    --small-box-shadow: 1px -1px 7px 0 #041623;
     --border: 1px solid #041620;
 }
 
@@ -38,15 +38,14 @@ main {
 }
 
 /* Footer */
-footer: {
+footer {
     flex-shrink: 0;
 }
 
 /* Header */
 .navbar {
-    background-color: var(--off-white)
-    box-shadow: var(--smal-box-shadow)
-
+    background-color: var(--off-white);
+    box-shadow: var(--small-box-shadow);
 }
 
 a.nav-link {
