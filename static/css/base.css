@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root{
+    /* Fonts */
+    --title: 'SUSE', 'serif';
+    --main-font: 'SUSE', 'serif'
+
+    /* Colors */
+    --background: #F4F6F6;
+    --beige: #FDF2E9;
+    --yellow: #F39C12;
+    --off-white: #FBFCFC;
+    --dark-grey: #34495E;
+    --black: #17202A;
+}
+
+/* Header */
