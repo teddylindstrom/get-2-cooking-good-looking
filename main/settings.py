@@ -16,7 +16,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'default-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '8000-teddylindst-get2cooking-ywkjjmiplap.ws-eu115.gitpod.io']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '8000-teddylindst-get2cooking-i05mbjquy34.ws.codeinstitute-ide.net']
 
 # Application definition
 INSTALLED_APPS = [
