@@ -6,12 +6,31 @@
     --main-font: 'SUSE', 'serif'
 
     /* Colors */
-    --background: #F4F6F6;
+    --background: #154360;
     --beige: #FDF2E9;
     --yellow: #F39C12;
     --off-white: #FBFCFC;
     --dark-grey: #34495E;
     --black: #17202A;
+
+    /* Utils */
+    --smal-box-shadow: 1px -1px 7px 0 #041623;
+    --border: 1px solid #041620;
+
 }
 
 /* Header */
+
+.navbar {
+    background-color: var(--off-white)
+    box-shadow: var(--smal-box-shadow)
+
+}
+
+a.nav-link {
+    color: var(--black);
+}
+
+img.logo {
+    width: 18.75rem;
+}
